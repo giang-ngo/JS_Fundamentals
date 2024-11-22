@@ -58,7 +58,7 @@ const poll = {
     displayResults(type = 'array') {
         if (type === 'array') {
             console.log(this.answers);
-        } else {
+        } else if (type === 'string') {
             console.log(`Poll results are ${this.answers.join(', ')}`);
         }
     },
