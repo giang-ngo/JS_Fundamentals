@@ -108,4 +108,4 @@ console.log(dogs.filter(checkEatingOkay));
 
 // 8
 const dogsSorted = dogs.slice().sort((a, b) => a.recFood - b.recFood);
-console.log(dogsCopy);
+console.log(dogsSorted);

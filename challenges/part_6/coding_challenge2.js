@@ -1,4 +1,4 @@
-// Thử Thách Lập Trình #4
+//Coding Challenge #2
 
 /*
 Hãy quay lại nghiên cứu của Julia và Kate về chó.
