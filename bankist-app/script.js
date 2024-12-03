@@ -346,19 +346,19 @@ btnSort.addEventListener('click', (e) => {
     sorted = !sorted;
 });
 
-labelBalance.addEventListener('click', () => {
-    const movementsUI = Array.from(
-        document.querySelectorAll('.movements__value'),
-        (el) => +el.textContent.replace('€', ''),
-    );
-    console.log(movementsUI);
+// labelBalance.addEventListener('click', () => {
+//     const movementsUI = Array.from(
+//         document.querySelectorAll('.movements__value'),
+//         (el) => +el.textContent.replace('€', ''),
+//     );
+//     console.log(movementsUI);
 
-    const movementsUI2 = [
-        ...document.querySelectorAll('.movements__value'),
-        (el) => +el.textContent.replace('€', ''),
-    ];
-    console.log(movementsUI2);
-});
+//     const movementsUI2 = [
+//         ...document.querySelectorAll('.movements__value'),
+//         (el) => +el.textContent.replace('€', ''),
+//     ];
+//     console.log(movementsUI2);
+// });
 labelBalance.addEventListener('click', () => {
     [...document.querySelectorAll('.movements__row')].forEach((row, i) => {
         // 0 ,2 ,4 ,6
